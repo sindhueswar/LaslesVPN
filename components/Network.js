@@ -5,8 +5,8 @@ import Image from 'next/image';
 import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper'
 import getScrollAnimation from '../utils/getScrollAnimation';
 import amazon from './../assets/Icon/amazon.webp';
-import Netflix from './../assets/Icon/netflix.webp';
-import reddit from './../assets/Icon/reddit.webp';
+import Netflix from './../assets/Icon/Netflix.webp';
+import reddit from './../assets/Icon/Reddit.webp';
 import discord from './../assets/Icon/discord.webp';
 import spotify from './../assets/Icon/spotify.webp'; 
 export default function Network() {
