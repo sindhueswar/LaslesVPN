@@ -4,11 +4,11 @@ import Maps from "./../assets/HugeGlobal.svg";
 import Image from 'next/image';
 import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper'
 import getScrollAnimation from '../utils/getScrollAnimation';
-import amazon from './../assets/Icon/amazon.Webp';
-import Netflix from './../assets/Icon/netflix.WEbp';
-import reddit from './../assets/Icon/reddit.Webp';
-import discord from './../assets/Icon/discord.Webp';
-import spotify from './../assets/Icon/spotify.Webp'; 
+import amazon from './../assets/Icon/amazon.webp';
+import Netflix from './../assets/Icon/netflix.webp';
+import reddit from './../assets/Icon/reddit.webp';
+import discord from './../assets/Icon/discord.webp';
+import spotify from './../assets/Icon/spotify.webp'; 
 export default function Network() {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
     const images = [Netflix,reddit,amazon,discord,spotify];
