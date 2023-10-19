@@ -63,6 +63,25 @@ const TestimonialSlider = ({
       testimonial:
         "This is very unusual for my business that currently requires a virtual private network that has high security",
     },
+    {
+      name: "iezh Robert",
+      image: person1,
+      city: "Warsaw",
+      country: "Poland",
+      rating: "4.5",
+      testimonial:
+        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    },
+    {
+      name: "Yessica Christy",
+      image: person2,
+      city: "Shanxi",
+      country: "China",
+      rating: "4.5",
+      testimonial:
+      "I like it because I like to travel far and still can connect with high speed",
+    },
+  
   ],
 }) => {
   const settings = {

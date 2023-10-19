@@ -94,16 +94,16 @@ const Hero = () => {
           </div>
         </motion.div>
       </ScrollAnimationWrapper>
-      <div className="relative w-full flex">
-        <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 pt-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
+      <div className="lg:absolute  w-full flex">
+        <ScrollAnimationWrapper className="rounded-lg w-11/12 grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 lg:py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
           {listUser.map((listUsers, index) => (
             <motion.div
-              className="flex items-center justify-start sm:justify-center py-10 sm:ty-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
+              className="flex items-center justify-start sm:justify-center py-8 sm:ty-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
               key={index}
               custom={{ duration: 2 + index }}
               variants={scrollAnimation}
             >
-              <div className="flex mx-auto w-40 sm:w-auto">
+              <div className="flex  w-40 sm:w-auto">
                 <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full hover:scale-150 duration-700">
                   {/* <Image src={listUser.icon} className="h-6 w-6" width="1.5rem" height="1.5rem" />
                    */}
@@ -118,7 +118,7 @@ const Hero = () => {
           ))}
         </ScrollAnimationWrapper>
         <div
-          className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
+          className="absolute bg-black-600 opacity-5 w-8/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0 bottom-0"
           style={{ filter: "blur(114px)" }}
         ></div>
       </div>

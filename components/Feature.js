@@ -16,10 +16,10 @@ const Feature = () => {
 
   return (
     <div
-      className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto bg-gradient-to-b from-white-300 to-white-500"
+      className=" relative max-w-screen-xl lg:pt-44 mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto bg-gradient-to-b from-white-300 to-white-500"
       id="feature"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 ">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
       <ScrollAnimationWrapper className="flex  w-full justify-end">
           <motion.div className="h-full lg:h-full w-full p-4" variants={scrollAnimation}>
             <Image
