@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Stars from "./../../assets/Icon/stars.svg";
-import ArrowBack from "./../../assets/Icon/eva_arrow-back-fill.svg";
-import ArrowNext from "./../../assets/Icon/eva_arrow-next-fill.svg";
+import ArrowBack from "./../../assets/Icon/backarrow.svg";
+import ArrowNext from "./../../assets/Icon/nextarrow.svg";
 import person1 from "./../../assets/people-1.webp"
 import person2 from "./../../assets/people-2.webp"
 import person3 from "./../../assets/people-3.webp"

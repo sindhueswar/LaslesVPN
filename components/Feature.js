@@ -3,7 +3,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import Illustration2 from "./../assets/Illustration2.Webp"
+import Featureimage from "./../assets/Featureimage.Webp"
 const features = [
   "Powerfull online protection.",
   "Internet without borders.",
@@ -23,8 +23,8 @@ const Feature = () => {
       <ScrollAnimationWrapper className="flex  w-full justify-end">
           <motion.div className="h-full lg:h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src={Illustration2}
-              alt="VPN Illustrasi"
+              src={Featureimage}
+              alt="Feature image"
               layout="responsive"
               quality={100}
               height={414}

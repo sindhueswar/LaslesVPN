@@ -1,6 +1,6 @@
 import React,{useMemo} from 'react'
 import {motion } from 'framer-motion'
-import Maps from "./../assets/HugeGlobal.svg";
+import Maps from "./../assets/Map.svg";
 import Image from 'next/image';
 import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper'
 import getScrollAnimation from '../utils/getScrollAnimation';

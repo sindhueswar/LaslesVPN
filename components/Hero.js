@@ -4,7 +4,7 @@ import ButtonPrimary from "./Buttons/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import VPNillustration from './../assets/Illustration1.Webp';
+import Heroimage from './../assets/Heroimage.Webp';
 
 const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -83,8 +83,8 @@ const Hero = () => {
           <div className="flex  w-full">
             <motion.div className="lg:h-full w-full" variants={scrollAnimation}>
               <Image
-                src={VPNillustration}
-                alt="VPN Illustration"
+                src={Heroimage}
+                alt="Heroimage"
                 quality={100}
                 width={612}
                 height={383}
@@ -105,9 +105,7 @@ const Hero = () => {
             >
               <div className="flex  w-40 sm:w-auto">
                 <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full hover:scale-150 duration-700">
-                  {/* <Image src={listUser.icon} className="h-6 w-6" width="1.5rem" height="1.5rem" />
-                   */}
-                   {listUsers.icon}
+                                 {listUsers.icon}
                 </div>
                 <div className="flex flex-col">
                    <Counter   targetValue={parseInt(listUsers.number)}/>

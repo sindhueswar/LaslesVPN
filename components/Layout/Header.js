@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-// Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../Buttons/ButtonOutline.";
 import LogoVPN from "../../assets/Logo.svg";
@@ -109,8 +108,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-      {/* Mobile Navigation */}
-
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
@@ -245,7 +242,7 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-      {/* End Mobile Navigation */}
+     
     </>
   );
 };

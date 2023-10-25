@@ -45,7 +45,7 @@ li.circle-check:before {
 }
 li.check:before {
   left: -0.5em;
-  background-image: url("./../assets/Icon/jam_check.svg");
+  background-image: url("./../assets/Icon/check.svg");
   top: -0.5em;
   font-size: 400%;
 }
